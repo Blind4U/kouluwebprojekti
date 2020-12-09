@@ -25,12 +25,13 @@
 
   <body>
 
-
+    <!--headeri ja isokuva-->
     <header>
       <div class="navbar-fixed">
       <nav class="nav-wrapper transparent z-depth-0">
         <div class="container">
-          <!--<a href="#" class="brand-logo center">Blind4U</a>-->
+          <!--<a href="index.html" class="brand-logo center">Blind4U</a>-->
+
           <!--<img src="kuvat/Web 1920 – 2.png" alt="" class="responsive-img materialboxed">-->
           <a href="#" class="dropdown-trigger right" data-target="hamppari2">            
             <!--<i class="material-icons z-depth-0">menu</i>-->
@@ -38,9 +39,10 @@
           </a>
 
           <ul class="dropdown-content z-depth-2" id="hamppari2">
-            <li><a href="#">Life</a></li>
-            <li><a href="#">Work</a></li>            
-            <li><a href="#">Stuff</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lifepage.html">Life</a></li>
+            <li><a href="workpage.html">Work</a></li>            
+            <li><a href="stuffpage.html">Stuff</a></li>
           </ul>
 
 
@@ -89,13 +91,83 @@
       </div>
     </header>
 
+
+    <!--uudet etusivu jutut-->
+
+    <div class="container">
+      <!--<h2>Cards</h2>-->
+
+      <div class="row">
+
+
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="kuvat/flag-of-finland-2507366_1920.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title">My Life</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+            <div class="card-action">
+              <a href="lifepage.html">More details</a>              
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="kuvat/work-731198_1920.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title">My Work</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+            <div class="card-action">
+              <a href="workpage.html">More details</a>              
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="kuvat/game-2294201_1920.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <span class="card-title">My Stuff</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+            <div class="card-action">
+              <a href="stuffpage.html">More details</a>              
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  
+
+
+
+
+<!--vanhoja juttuja -->
+
+
+    <!--vanhat etusivu jutut
+
     <section class="container section scrollspy" id="tiedot">
       <div class="row">
         <div class="col s12 l4">
-            <img src="kuvat/hvasen.jpg" alt="" class="responsive-img materialboxed">
+            <img src="kuvat/flag-of-finland-123273_1920.jpg" alt="" class="responsive-img materialboxed">
         </div>
         <div class="col s12 l6 offset-l1">
-          <h2 class="blue-text text-darken-4">My life</h2>
+          <a href="lifepage.html">
+            <h2 class="blue-text text-darken-4">My life</h2>
+          </a>
+          
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
             Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. 
           </p>
@@ -109,12 +181,15 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="kuva2">
         <div class="col s12 l4 offset-l1 push-l7">
-            <img src="kuvat/hkeski.jpg" alt="" class="responsive-img materialboxed">
+            <img src="kuvat/work-731198_1920.jpg" alt="" class="responsive-img materialboxed">
         </div>
         <div class="col s12 l6 offset-l1 pull-l5 right-align">
-          <h2 class="blue-text text-darken-3">My work</h2>
+          <a href="workpage.html">
+            <h2 class="blue-text text-darken-3">My work</h2>
+          </a>
+          
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
             Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. 
           </p>
@@ -128,10 +203,13 @@
       </div>
       <div class="row">
         <div class="col s12 l4">
-            <img src="kuvat/hoikea.jpg" alt="" class="responsive-img materialboxed">
+            <img src="kuvat/game-2294201_1920.jpg" alt="" class="responsive-img materialboxed">
         </div>
         <div class="col s12 l6 offset-l1">
-          <h2 class="blue-text text-darken-4">My stuff</h2>
+          <a href="stuffpage.html">
+            <h2 class="blue-text text-darken-4">My stuff</h2>
+          </a>
+          
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
             Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. 
           </p>
@@ -146,6 +224,10 @@
         </div>
       </div>
     </section>
+
+-->
+
+
 
 
 <!-- kokeulu
@@ -196,34 +278,36 @@
 
 
 
-    <!-- alaosa -->
-  <footer class="page-footer grey darken-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s6 center-align">
-          <h5>About Me</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
-          <p>Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-            Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis.</p>
-        </div>
-        <div class="col l6 s6 center-align">
-          <h5 class="white-text">Contact Me!</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Youtube</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Twitch</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">LinkedIn</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Email</a></li>         
-          </ul>
-        </div>
+ <!-- alaosa -->
+ <footer class="page-footer grey darken-2">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12 center-align">
+        <h6>Blablablaaa</h6>
+        <p>Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+          Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis.</p>
+      </div>
+      <div class="col l3 s6 center-align">
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Youtube</a></li>         
+        </ul>
+      </div>
+      <div class="col l3 s6 left-align">        
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#">Twitch</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">LinkedIn</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Email</a></li>         
+        </ul>
       </div>
     </div>
-    <div class="footer-copyright grey darken-3">
-      <div class="container center-align">&copy; 2020 Blind4U</div>
-    </div>
-  </footer>
+  </div>
+  <div class="footer-copyright grey darken-3">
+    <div class="container center-align">&copy; 2020 Blind4U</div>
+  </div>
+</footer>
 
 
     
